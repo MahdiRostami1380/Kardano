@@ -142,15 +142,15 @@ export default function Menu() {
       </div>
       <div
         ref={hamburgerMenu}
-        className={`text-white bg-[#2C343DF2] h-full fixed top-[99px] w-3/4 backdrop-blur-sm md:top-[119px] right-0 z-50 duration-500 ${
+        className={`text-white bg-[#2C343DF2] h-full fixed top-[99px] w-4/5 backdrop-blur-sm md:top-[119px] right-0 z-50 duration-500 ${
           menuStatus ? "translate-x-0" : "translate-x-full"
-        } p-9`}
+        } p-7`}
       >
-        <div className="flex w-full justify-between py-3 px-5 bg-white rounded-2xl mb-10">
+        <div className="flex w-full justify-between py-2 px-3 bg-white rounded-xl mb-10">
           <input
             type="text"
             placeholder="جستجو کلاس یا مدرسه ..."
-            className="bg-transparent outline-none text-[#19191A]"
+            className="bg-transparent outline-none text-[#19191A] text-xs"
           />
           <img src="/vectors/chevronLeft.svg" alt="chevron left" />
         </div>
