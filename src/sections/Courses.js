@@ -5,11 +5,11 @@ import Link from "next/link";
 export default function Courses() {
   const courses = [{}, {}, {}, {}, {}, {}];
   return (
-    <section className="section-container mt-10">
+    <section className="section-container mt-10 md:hidden">
       <div className="flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <ThreeCircle />
-          <h2 className="text-[20px] lg:text-[36px] font-[800]">
+          <h2 className="font-KamandBlack text-[20px] lg:text-[36px] font-[800]">
             کلاس‌های درانتظار شما
           </h2>
         </div>

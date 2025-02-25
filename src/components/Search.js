@@ -4,10 +4,10 @@ export default function Search() {
   return (
     <div>
       <div className="relative isolate mt-[360px] md:mt-[580px] lg:mt-[150px] xl:mt-[130px] 2xl:mt-[200px] lg:w-2/5 xl:w-1/2 2xl:w-2/5">
-        <p className="lg:text-[25px] xl:text-[32px] hidden lg:block">
+        <p className="font-Kamand lg:text-[24px] xl:text-[32px] hidden lg:block mb-5">
           دنبال مدرسه واسه تدریس می‌گردی؟
         </p>
-        <h1 className="text-[#19191A] text-[26px] lg:text-[40px] xl:text-[48px] font-[800] text-justify">
+        <h1 className="font-KamandBlack text-[#19191A] text-[26px] lg:text-[30px] xl:text-[45px] font-[800] text-justify">
           با چند کلیک ساده کلاس خصوصی خودت رو پیدا کن!
         </h1>
         <SearchSection />

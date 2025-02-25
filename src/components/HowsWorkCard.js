@@ -6,7 +6,7 @@ export default function HowsWorkCard({ card }) {
         alt={card.title}
         className={`${card.className} lg:w-[40px] xl:w-fit`}
       />
-      <h3 className="lg:text-xl xl:text-2xl font-[900] text-[#19191A] mb-5">
+      <h3 className="font-KamandBlack lg:text-xl xl:text-2xl font-[900] text-[#19191A] mb-5">
         {card.title}
       </h3>
       <p className="text-[#606060] lg:text-base xl:text-xl font-normal">

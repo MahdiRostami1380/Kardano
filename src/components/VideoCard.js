@@ -9,8 +9,8 @@ export default function VideoCard() {
         className="size-[93px] lg:size-[130px] xl:size-[146px] object-cover rounded-xl ml-3 xl:ml-4"
       />
       <div className="flex flex-1 flex-col md:flex-row justify-between">
-        <div className="flex flex-wrap flex-row md:flex-col justify-between mt-1 xl:mt-4 xl:mb-3 gap-3">
-          <h3 className="w-full md:w-fit text-[13px] lg:text-[17px] xl:text-[20px] font-[900]">
+        <div className="flex flex-wrap flex-row md:flex-col justify-between mt-1 xl:mt-4 mb-2 lg:mb-4 gap-3">
+          <h3 className="font-IRANSansBlack w-full md:w-fit text-[13px] lg:text-[14px] xl:text-[18px] font-[900]">
             مدرس زبان انگلیسی سطح پیشرفته
           </h3>
           <div className="flex flex-1 flex-row md:flex-col justify-between xl:gap-3">

@@ -11,8 +11,8 @@ export default function Comment({ comment, isActive }) {
       {isActive && (
         <>
           <div className="flex justify-between items-center w-full">
-            <div className="flex gap-1 text-xl font-[900]">
-              <h3>{comment.name}</h3>
+            <div className="flex gap-1 lg:text-lg xl:text-xl font-[900]">
+              <h3 className="font-IRANSansBlack">{comment.name}</h3>
               <div>(1402/12/05)</div>
             </div>
             <div className="flex gap-1">

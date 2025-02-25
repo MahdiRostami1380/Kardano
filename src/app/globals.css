@@ -7,3 +7,23 @@
     @apply container mx-auto px-3;
   }
 }
+
+@font-face {
+  font-family: IRANSans;
+  src: url("/fonts/IRANSansXFaNum-Regular.ttf");
+}
+
+@font-face {
+  font-family: Kamand;
+  src: url("/fonts/Kamand-Regular.ttf");
+}
+
+@font-face {
+  font-family: KamandBlack;
+  src: url("/fonts/Kamand-Black.ttf");
+}
+
+@font-face {
+  font-family: IRANSansBlack;
+  src: url("/fonts/IRANSansXFaNum-Black.ttf");
+}

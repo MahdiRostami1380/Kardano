@@ -12,6 +12,12 @@ export default {
       screens: {
         s440: "434px",
       },
+      fontFamily: {
+        IRANSans: "IRANSans",
+        IRANSansBlack: "IRANSansBlack",
+        Kamand: "Kamand",
+        KamandBlack: "KamandBlack",
+      },
     },
   },
   plugins: [],

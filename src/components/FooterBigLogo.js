@@ -12,16 +12,30 @@ export default function FooterLogo() {
         سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز ...
       </p>
       <div className="flex items-center justify-between w-full">
-        <p className="text-lg font-[900]">ما را در شبکه های مجازی دنبال کنید</p>
+        <p className="font-KamandBlack lg:text-sm xl:text-base 2xl:text-lg font-[900]">
+          ما را در شبکه های مجازی دنبال کنید
+        </p>
         <div className="flex gap-3">
           <div>
-            <img src="/vectors/youtube.svg" alt="youtube" />
+            <img
+              src="/vectors/youtube.svg"
+              alt="youtube"
+              className="size-[20px] xl:size-[28px]"
+            />
           </div>
           <div>
-            <img src="/vectors/telegram.svg" alt="telegram" />
+            <img
+              src="/vectors/telegram.svg"
+              alt="telegram"
+              className="size-[20px] xl:size-[28px]"
+            />
           </div>
           <div>
-            <img src="/vectors/instagram.svg" alt="instagram" />
+            <img
+              src="/vectors/instagram.svg"
+              alt="instagram"
+              className="size-[20px] xl:size-[28px]"
+            />
           </div>
         </div>
       </div>

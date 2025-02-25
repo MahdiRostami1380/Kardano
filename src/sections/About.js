@@ -16,7 +16,7 @@ export default function About() {
       <div className="section-container flex gap-[70px] md:gap-[40px] lg:gap-14 xl:gap-20 2xl:gap-28 relative items-center mt-0 lg:mt-20 flex-col-reverse lg:flex-row z-10">
         <div className="absolute w-[4px] lg:w-[9px] h-[84px] lg:h-[186px] bg-[#F37915] rounded-full left-1/2 -translate-x-1/2 -top-16 lg:-top-36 xl:-top-40 z-10"></div>
         <div className="flex flex-col px-10 md:px-0 gap-[70px] md:gap-[40px] lg:gap-5 xl:gap-7 w-full lg:w-1/3">
-          <h2 className="relative text-[29px] lg:text-[24px] xl:text-[29px] 2xl:text-[36px] font-[800] w-fit">
+          <h2 className="font-KamandBlack relative text-[29px] lg:text-[24px] xl:text-[29px] 2xl:text-[36px] font-[800] w-fit">
             <span>درباره </span>
             <span className="text-[rgb(243,121,21)]">پژوهاد</span>
             <div className="absolute whitespace-nowrap -top-[10px] lg:-top-[10px] xl:-top-3 2xl:-top-4 left-1/2 -translate-x-1/2 text-[#19191A0D] text-[29px] lg:text-[24px] xl:text-[29px] 2xl:text-[37px]">
@@ -54,7 +54,7 @@ export default function About() {
               alt="teacher"
               className="lg:scale-75 xl:scale-[.85] 2xl:scale-100"
             />
-            <div className="font-[800] lg:text-[30px] xl:text-[40px] 2xl:text-[48px] text-[#19191A]">
+            <div className="font-KamandBlack font-[800] lg:text-[30px] xl:text-[40px] 2xl:text-[48px] text-[#19191A]">
               145+
             </div>
             <div className="lg:text-lg xl:text-[22px] 2xl:text-[24px] font-normal text-[#F37915]">
@@ -67,7 +67,7 @@ export default function About() {
               alt="book"
               className="lg:scale-75 xl:scale-[.85] 2xl:scale-100"
             />
-            <div className="font-[800] lg:text-[30px] xl:text-[40px] 2xl:text-[48px] text-[#19191A]">
+            <div className="font-KamandBlack font-[800] lg:text-[30px] xl:text-[40px] 2xl:text-[48px] text-[#19191A]">
               386+
             </div>
             <div className="lg:text-lg xl:text-[22px] 2xl:text-[24px] font-normal text-[#F37915]">
@@ -80,7 +80,7 @@ export default function About() {
               alt="student"
               className="lg:scale-75 xl:scale-[.85] 2xl:scale-100"
             />
-            <div className="font-[800] lg:text-[30px] xl:text-[40px] 2xl:text-[48px] text-[#19191A]">
+            <div className="font-KamandBlack font-[800] lg:text-[30px] xl:text-[40px] 2xl:text-[48px] text-[#19191A]">
               2749+
             </div>
             <div className="lg:text-[18px] xl:text-[22px] 2xl:text-[24px] font-normal text-[#F37915]">

@@ -10,7 +10,7 @@ export default function Videos() {
       <div className="flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <ThreeCircle />
-          <h2 className="text-[20px] lg:text-[36px] font-[800]">
+          <h2 className="font-KamandBlack text-[20px] lg:text-[36px] font-[800]">
             کلاس‌های درانتظار شما
           </h2>
         </div>

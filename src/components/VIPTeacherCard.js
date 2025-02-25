@@ -9,10 +9,12 @@ export default function VIPTeacherCard() {
         className="w-full object-cover mb-2"
       />
       <div className="flex flex-col gap-3 p-4 lg:p-3 xl:p-4">
-        <h3 className="font-[900] text-xl">مهندس علی نعمتی</h3>
+        <h3 className="font-IRANSansBlack font-[900] text-xl">
+          مهندس علی نعمتی
+        </h3>
         <div className="text-[#606060]">مدرس: زبان خارجی، ابتدایی</div>
         <div className="flex justify-between">
-          <div className="flex gap-1 lg:text-[12px] xl:text-base items-center">
+          <div className="flex gap-1 lg:text-[10px] xl:text-[14px] items-center">
             <img src="/vectors/person.svg" alt="person" className="size-fit" />
             <span>374 </span>
             <span className="text-[#606060]">دانش آموخته</span>

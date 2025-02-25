@@ -6,7 +6,7 @@ export default function Blog() {
       <img src="/blogCardImage.png" className="rounded-3xl" />
       <div className="p-4">
         <div className="flex flex-col gap-1 md:gap-3 xl:gap-5 mt-0 md:mt-2 xl:mt-3 group-hover:[mask-image:linear-gradient(to_bottom,black,transparent_80%,transparent)]">
-          <h3 className="font-[900]">آمادگی آزمون آیلتس</h3>
+          <h3 className="font-IRANSansBlack font-[900]">آمادگی آزمون آیلتس</h3>
           <p className="text-[#606060] font-normal text-[12px] md:text-base text-justify">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در

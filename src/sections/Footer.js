@@ -16,7 +16,9 @@ export default function Footer() {
             <div key={index}>
               <div className="flex gap-4 items-center mb-7">
                 <div className="size-[17px] bg-[#F37915] rounded-full"></div>
-                <div className="text-2xl font-[900]">{item.subject}</div>
+                <div className="font-KamandBlack text-xl xl:text-2xl font-[900]">
+                  {item.subject}
+                </div>
               </div>
               <div className="flex flex-col gap-2">
                 {item.sub.map((subItem, i) => (
@@ -64,7 +66,7 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <div className="bg-gradient-to-r text-white text-center from-[#2C343D] to-[#3A4654] text-[14px] md:text-2xl px-3 py-4 md:py-8">
+      <div className="font-Kamand bg-gradient-to-r text-white text-center from-[#2C343D] to-[#3A4654] text-[14px] md:text-xl lg:text-2xl px-3 py-4 md:py-8">
         کلیه حقوق مادی و معنوی این وبسایت متعلق به مجموعه پژوهاد می‌باشد.
       </div>
     </>
