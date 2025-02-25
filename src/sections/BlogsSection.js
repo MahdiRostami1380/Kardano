@@ -9,7 +9,7 @@ export default function BlogsSection() {
         <div className="flex gap-2 items-center">
           <ThreeCircle />
           <h2 className="font-KamandBlack text-[20px] lg:text-[36px] font-[800]">
-            <span className="text-[#F37915]">وبلاگ </span> پژوهاد
+            <span className="text-[#F37915]">وبلاگ </span> کادرانو
           </h2>
         </div>
         <Link href={"/"} className="flex gap-3 items-center">

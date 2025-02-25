@@ -38,7 +38,7 @@ export default function Menu() {
         setMenuStatus(false);
       }
 
-      if (event.target?.id === "pazhuhad") {
+      if (event.target?.id === "kadrano") {
         return;
       }
 
@@ -83,14 +83,14 @@ export default function Menu() {
               {navItems.map((item, index) => (
                 <Link
                   href={item.link}
-                  id={item.title === "پژوهاد" ? "pazhuhad" : "item"}
+                  id={item.title === "کادرانو" ? "kadrano" : "item"}
                   key={index}
                   className={`${
                     pathname === item.link &&
                     "text-[#F37915] relative before:w-1 before:h-3 before:rounded-t-full before:bg-[#F37915] before:absolute before:-top-5 before:left-1/2 before:-translate-x-1/2"
                   } flex gap-2 items-center`}
                   onClick={() => {
-                    if (item.title === "پژوهاد") {
+                    if (item.title === "کادرانو") {
                       setPazhuhadStatus(!pazhuhadStatus);
                     }
                   }}

@@ -1,5 +1,5 @@
 export const navItems = [
-  { title: "پژوهاد", link: "/", sub: [] },
+  { title: "کادرانو", link: "/", sub: [] },
   { title: "درباره ما", link: "/about" },
   { title: "تماس با ما", link: "/contact" },
   { title: "راهنما", link: "/guide" },
@@ -11,7 +11,7 @@ export const headerOptions = [
   { title: "آموزشگاه", link: "/" },
   { title: "کلاس آنلاین", link: "/" },
   { title: "دوره‌های آموزشی", link: "/" },
-  { title: "استودیو پژوهاد", link: "/" },
+  { title: "استودیو کادرانو", link: "/" },
   { title: "مقالات", link: "/" },
   { title: "راهنما", link: "/" },
 ];
@@ -133,7 +133,7 @@ export const pazhuhadItems = [
     { title: "مشاوره تحصیلی", link: "/" },
   ],
   [
-    { title: "استودیو کاردانو", link: "/" },
+    { title: "استودیو کادرانو", link: "/" },
     { title: "دوره‌های آموزشی", link: "/" },
   ],
   [{ title: "مقالات", link: "/" }],

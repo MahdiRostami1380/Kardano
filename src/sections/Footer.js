@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
       </section>
       <div className="font-Kamand bg-gradient-to-r text-white text-center from-[#2C343D] to-[#3A4654] text-[14px] md:text-xl lg:text-2xl px-3 py-4 md:py-8">
-        کلیه حقوق مادی و معنوی این وبسایت متعلق به مجموعه پژوهاد می‌باشد.
+        کلیه حقوق مادی و معنوی این وبسایت متعلق به مجموعه کادرانو می‌باشد.
       </div>
     </>
   );

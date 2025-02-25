@@ -25,7 +25,7 @@ export default function CommonQuestions() {
               {selectedQuestion === index && (
                 <div className="bg-[#F7F9FA] rounded-2xl py-3 px-6 block lg:hidden w-full whitespace-normal font-normal">
                   <div className="font-Kamand text-[#F37915] mb-3">
-                    پاسخ پژوهاد:
+                    پاسخ کادرانو:
                   </div>
                   <div className="text-justify text-[14px]">{qa.answer}</div>
                 </div>
@@ -35,7 +35,7 @@ export default function CommonQuestions() {
         </div>
         <div className="hidden lg:block text-base xl:text-lg 2xl:text-xl text-[#606060] max-w-[650px] xl:max-w-[850px] 2xl:max-w-[1008px] bg-[#F7F9FA] rounded-3xl py-4 px-7">
           <div className="font-Kamand text-[#F37915] mb-5 text-lg xl:text-xl 2xl:text-2xl">
-            پاسخ پژوهاد:
+            پاسخ کادرانو:
           </div>
           <div className="text-justify">
             {commonQuestions[selectedQuestion].answer}

@@ -12,7 +12,7 @@ export default function VIPTeacher() {
         <div className="flex gap-2 items-center">
           <ThreeCircle />
           <h2 className="font-KamandBlack text-[20px] lg:text-[36px] font-[800]">
-            دبیرهای <span className="text-[#F37915]">VIP</span> کاردانو
+            دبیرهای <span className="text-[#F37915]">VIP</span> کادرانو
           </h2>
         </div>
         <Link href={"/"} className="hidden md:flex gap-3 items-center">

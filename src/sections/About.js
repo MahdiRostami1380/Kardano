@@ -18,8 +18,8 @@ export default function About() {
         <div className="flex flex-col px-10 md:px-0 gap-[70px] md:gap-[40px] lg:gap-5 xl:gap-7 w-full lg:w-1/3">
           <h2 className="font-KamandBlack relative text-[29px] lg:text-[24px] xl:text-[29px] 2xl:text-[36px] font-[800] w-fit">
             <span>درباره </span>
-            <span className="text-[rgb(243,121,21)]">پژوهاد</span>
-            <div className="absolute whitespace-nowrap -top-[10px] lg:-top-[10px] xl:-top-3 2xl:-top-4 left-1/2 -translate-x-1/2 text-[#19191A0D] text-[29px] lg:text-[24px] xl:text-[29px] 2xl:text-[37px]">
+            <span className="text-[rgb(243,121,21)]">کادرانو</span>
+            <div className="absolute whitespace-nowrap -top-5 lg:-top-5 xl:-top-6 2xl:-top-7 left-1/2 -translate-x-1/2 text-[#19191A0D] text-[39px] lg:text-[32px] xl:text-[39px] 2xl:text-[48px]">
               About Us
             </div>
           </h2>
