@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "پژوهاد",
-  description: "آکادمی پژوهاد",
+  title: "کادرانو",
+  description: "آکادمی کادرانو",
 };
 
 export default function RootLayout({ children }) {
