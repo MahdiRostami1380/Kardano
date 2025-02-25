@@ -9,6 +9,8 @@ import VIPTeacher from "@/sections/VIPTeacher";
 import WhyKardano from "@/sections/WhyKardano";
 import Description from "@/sections/Description";
 import Footer from "@/sections/Footer";
+import Comments from "@/sections/Comments";
+import Courses from "@/sections/Courses";
 
 export default function Home() {
   return (
@@ -18,8 +20,10 @@ export default function Home() {
       <About />
       <HowsWork />
       <VIPTeacher />
+      <Courses />
       <Register />
       <WhyKardano />
+      <Comments />
       <CommonQuestions />
       <BlogsSection />
       <Description />

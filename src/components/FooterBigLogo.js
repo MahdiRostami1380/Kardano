@@ -4,7 +4,7 @@ export default function FooterLogo() {
       <img
         src="/vectors/logo.svg"
         alt="logo"
-        className="h-[90px] w-[182px] mb-10 xl:mb-16"
+        className="h-[90px] w-[182px] mb-10 xl:mb-16 select-none"
       />
       <p className="leading-[36px] text-justify font-normal lg:mb-9 xl:mb-14">
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
@@ -28,7 +28,7 @@ export default function FooterLogo() {
       <img
         src="layer2.png"
         alt="layer2"
-        className="absolute h-[357px] rotate-180 top-20 right-20"
+        className="absolute h-[357px] rotate-180 top-20 right-20 select-none"
       />
     </div>
   );

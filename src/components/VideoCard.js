@@ -20,7 +20,7 @@ export default function VideoCard() {
                 alt="home icon"
                 className="size-[12px] lg:size-[24px]"
               />
-              <h4 className="text-[10px] lg:text-[12px] xl:text-base">
+              <h4 className="text-[10px] md:text-[12px] xl:text-base">
                 <span>مدرسه: </span>
                 <span>شهید مولایی نژاد</span>
               </h4>
@@ -31,7 +31,7 @@ export default function VideoCard() {
                 alt="home icon"
                 className="size-[12px] lg:size-[24px]"
               />
-              <h4 className="text-[10px] lg:text-[12px] xl:text-base">
+              <h4 className="text-[10px] md:text-[12px] xl:text-base">
                 <span>آدرس: </span>
                 <span>تهران، شهرک غرب</span>
               </h4>

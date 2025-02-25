@@ -1,5 +1,7 @@
+import Categories from "@/components/Categories";
 import ThreeCircle from "@/components/ThreeCircle";
 import VideoCards from "@/components/VideoCards";
+import { VIPTeacherOptions } from "@/constants";
 import Link from "next/link";
 
 export default function Videos() {
@@ -19,6 +21,7 @@ export default function Videos() {
           <img src="/vectors/chevronLeft.svg" alt="chevron down" />
         </Link>
       </div>
+      <Categories options={VIPTeacherOptions} />
       <VideoCards />
       <Link
         href={"/"}

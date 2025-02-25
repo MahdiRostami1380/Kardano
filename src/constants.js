@@ -138,3 +138,43 @@ export const pazhuhadItems = [
   ],
   [{ title: "مقالات", link: "/" }],
 ];
+
+export const commentsItems = [
+  { image: "/comments/person1.png", name: "مهدی رستمی" },
+  { image: "/comments/person2.png", name: "علی ضیایی" },
+  { image: "/comments/person3.png", name: "ی نفر" },
+  { image: "/comments/person1.png", name: "مهدی رستمی" },
+  { image: "/comments/person2.png", name: "علی ضیایی" },
+  { image: "/comments/person3.png", name: "ی نفر" },
+];
+
+export const VIPTeacherOptions = [
+  {
+    title: "زبان خارجه",
+    category: 0,
+  },
+  {
+    title: "کنکور سراسری",
+    category: 1,
+  },
+  {
+    title: "دروس دانشگاهی",
+    category: 2,
+  },
+  {
+    title: "متوسطه اول",
+    category: 3,
+  },
+  {
+    title: "متوسطه دوم",
+    category: 4,
+  },
+  {
+    title: "ابتدایی",
+    category: 5,
+  },
+  {
+    title: "سایر موارد",
+    category: 6,
+  },
+];

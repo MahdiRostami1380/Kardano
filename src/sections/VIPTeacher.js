@@ -1,5 +1,7 @@
+import Categories from "@/components/Categories";
 import ThreeCircle from "@/components/ThreeCircle";
 import VIPTeacherCard from "@/components/VIPTeacherCard";
+import { VIPTeacherOptions } from "@/constants";
 import Link from "next/link";
 
 export default function VIPTeacher() {
@@ -20,6 +22,7 @@ export default function VIPTeacher() {
           <img src="/vectors/chevronLeft.svg" alt="chevron down" />
         </Link>
       </div>
+      <Categories options={VIPTeacherOptions} />
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 py-3">
         {VIPTeachersArray.map((teacher, index) => (
           <VIPTeacherCard key={index} />
